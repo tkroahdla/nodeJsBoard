@@ -41,7 +41,7 @@ app.get('/contacts', function(req, res){
     if(err) return res.json(err);
     res.render('contacts/index', {contacts:contacts});
   });
-});
+}); 
 
 // Contacts - New
 app.get('/contacts/new', function(req, res){
